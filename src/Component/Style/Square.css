@@ -1,0 +1,26 @@
+
+.square{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:0px;
+    border-left: 3px solid;
+    height: 100px;
+    width:100%;
+    background-color: #fff;
+    
+}
+
+@media(max-width:600px){
+    .square{
+        height: 80px;
+        width: 100%;
+    }
+}
+
+@media(max-height:200px){
+    .square{
+        height: 40px;
+        width: 100%;
+    }
+}
